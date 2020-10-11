@@ -9,7 +9,7 @@ function playAudio() {
 
 
 function chapterOne() {
-  document.querySelector('.textFrame').src = "/1.html";
+  document.querySelector('.textFrame').src = "1.html";
   alertOne();
  
 
@@ -18,53 +18,53 @@ function chapterOne() {
 } 
 
 function chapterTwo() {
-  document.querySelector('.textFrame').src = "/2.html";
+  document.querySelector('.textFrame').src = "2.html";
   alertTwo();
   
 }
 
 function chapterThree() {
-  document.querySelector('.textFrame').src = "/3.html";
+  document.querySelector('.textFrame').src = "3.html";
   alertThree();
   
 } 
 
 
 function chapterFour() {
-  document.querySelector('.textFrame').src = "/4.html";
+  document.querySelector('.textFrame').src = "4.html";
   alertFour();
   
 } 
 
 function chapterFive() {
-  document.querySelector('.textFrame').src = "/5.html";
+  document.querySelector('.textFrame').src = "5.html";
   alertFive();
 }
 function chapterSix() {
-  document.querySelector('.textFrame').src = "/6.html";
+  document.querySelector('.textFrame').src = "6.html";
   alertSix();
   
 } 
 function chapterSeven() {
-  document.querySelector('.textFrame').src = "/7.html";
+  document.querySelector('.textFrame').src = "7.html";
   alertSeven();
   
 } 
 
 function chapterEight() {
-  document.querySelector('.textFrame').src = "/8.html";
+  document.querySelector('.textFrame').src = "8.html";
   alertEight();
  
 } 
 
 function chapterNine() {
-  document.querySelector('.textFrame').src = "/9.html";
+  document.querySelector('.textFrame').src = "9.html";
   alertNine();
 
 } 
 
 function chapterTen() {
-  document.querySelector('.textFrame').src = "/10.html";
+  document.querySelector('.textFrame').src = "10.html";
   alertTen();
   
 } 
