@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+ 
+
+    <title></title>
+  </head>
+  <body >
+     <!-- alerts go here -->
+
+  <div id = "alertOne" class="alert" style = "display:none" autoplay = "none">
+    <span class="closebtn" onclick="this.parentElement.style.display='none'; bgFunction()">&times;</span> 
+    <h1>Notice</h1>
+    <h3 style="font-size: medium;"> You are reading chapter 1. </h3> 
+    <h4>Annotations to this chapter You can find on page <strong style="color: #736E5F;font-size: 23;">28</strong> </h4>
+  </div>
+
+   
+
+  <div id = "alertTwo" class="alert" style = "display:none">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';bgFunction()">&times;</span> 
+    <h1>Notice</h1>
+    <h3 style="font-size: medium;"> You are reading chapter 2. </h3> 
+    <h4>Annotations to this chapter You can find on page <strong style="color:#736E5F;font-size: 23;">48</strong> </h4>
+  </div>
+
+
+
+  <div id = "alertThree" class="alert" style = "display:none">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';bgFunction()">&times;</span> 
+    <h1>Notice</h1>
+    <h3 style="font-size: medium;"> You are reading chapter 3. </h3> 
+    <h4>Annotations to this chapter You can find on page <strong style="color: #736E5F;font-size: 23;">62</strong>  </h4>
+  </div>
+
+  <div id = "alertFour" class="alert" style = "display:none">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';bgFunction()">&times;</span> 
+    <h1>Notice</h1>
+    <h3 style="font-size: medium;"> You are reading chapter 4. </h3> 
+    <h4>Annotations to this chapter You can find on page  <strong style="color:#736E5F;font-size: 23;">88</strong> </h4>
+    
+  </div>
+   
+  <div id = "alertFive" class="alert" style = "display:none">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';bgFunction()">&times;</span> 
+    <h1>Notice</h1>
+    <h3 style="font-size: medium;"> You are reading chapter 5. </h3> 
+    <h4>Annotations to this chapter You can find on page  <strong style="color:#736E5F;font-size: 23;">102</strong> </h4>
+    
+  </div>
+
+  <div id = "alertSix" class="alert" style = "display:none">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';bgFunction()">&times;</span> 
+    <h1>Notice</h1>
+    <h3 style="font-size: medium;"> You are reading chapter6. </h3> 
+    <h4>Annotations to this chapter You can find on page  <strong style="color:#736E5F;font-size: 23;">122</strong> </h4>
+    
+  </div>
+
+  <div id = "alertSeven" class="alert" style = "display:none">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';bgFunction()">&times;</span> 
+    <h1>Notice</h1>
+    <h3 style="font-size: medium;"> You are reading chapter7. </h3> 
+    <h4>Annotations to this chapter You can find on page  <strong style="color:#736E5F;font-size: 23;">146</strong> </h4>
+    
+  </div>
+
+  <div id = "alertEight" class="alert" style = "display:none">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';bgFunction()">&times;</span> 
+    <h1>Notice</h1>
+    <h3 style="font-size: medium;"> You are reading chapter 8. </h3> 
+    <h4>Annotations to this chapter You can find on page  <strong style="color:#736E5F;font-size: 23;">174</strong> </h4>
+    
+  </div>
+
+  <div id = "alertNine" class="alert" style = "display:none">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';bgFunction()">&times;</span> 
+    <h1>Notice</h1>
+    <h3 style="font-size: medium;"> You are reading chapter 9. </h3> 
+    <h4>Annotations to this chapter You can find on page  <strong style="color:#736E5F;font-size: 23;">210</strong> </h4>
+    
+  </div>
+
+  <div id = "alertTen" class="alert" style = "display:none">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';bgFunction()">&times;</span> 
+    <h1>Notice</h1>
+    <h3 style="font-size: medium;"> You are reading chapter 10. </h3> 
+    <h4>Annotations to this chapter You can find on page  <strong style="color:#736E5F;font-size: 23;">278</strong> </h4>
+    
+  </div>
+
+  <!------------------------------------------------------------------------------------------------->
+
+    <div  id="bg" class="row">
+      <div class="column">
+        <h2 style="color: #40371D; opacity: 0.4;text-align: center;"> Ulysses by James Joyce </h2>
+       
+        <iframe class="textFrame" src="/1.html" frameborder="0"></iframe> 
+      </div>
+      <div class="column" >
+        <h2 style="color: #40371D;opacity: 0.4; text-align: center;">Annotations  by Gifford</h2>
+        <iframe class="annotations" cass="frame" src="/Ulysses Annotated_ Notes for James Joyce's Ulysses   ( PDFDrive ).pdf" >
+        </iframe>
+      </div>
+    </div>
+x  
+    <div class="buttons">
+      <button id ="ch1" class="btn" onclick="chapterOne(), this.parentElement.style.display ='flex'">1</button>
+      <button id ="ch2" class="btn" onclick="chapterTwo(), this.parentElement.style.display ='flex';">2</button>
+      <button id ="ch3" class="btn" onclick="chapterThree(),this.parentElement.style.display ='flex';">3</button>
+      <button id ="ch4" class="btn"  onclick="chapterFour(),this.parentElement.style.display ='flex';">4</button>
+      <button id ="ch5" class="btn"  onclick="chapterFive(),this.parentElement.style.display ='flex';">5</button>
+      <button id ="ch6" class="btn" onclick="chapterSix(),this.parentElement.style.display ='flex';">6</button>
+      <button id ="ch7" class="btn" onclick="chapterSeven()">7</button>
+      <button id ="ch8" class="btn" onclick="chapterEight()">8</button>
+      <button id ="ch9" class="btn"  onclick="chapterNine()">9</button>
+      <button id ="ch10" class="btn"  onclick="chapterTen()">10</button>
+    </div>
+      <iframe cass="frame" class="notes" src="notes.html">
+      
+    </iframe>
+      
+   
+     <!-- audio -->
+     <audio id="myAudio">
+      <source src="/bell.wav"  type="audio/ogg">
+    </audio>
+      <!-- <audio id="foobar" src="/bell.wav" preload="none" muted ="muted">  -->
+    
+     
+  
+    <script src="script.js"></script>
+    </body>
+</html>
