@@ -68,6 +68,52 @@ function chapterTen() {
   alertTen();
   
 } 
+
+function chapterEleven() {
+  document.querySelector('.textFrame').src = "11.html";
+  alertEleven();
+  
+} 
+
+function chapterTwelve() {
+  document.querySelector('.textFrame').src = "12.html";
+  alertTwelve();
+  
+}
+function chapterThirteen() {
+  document.querySelector('.textFrame').src = "13.html";
+  alertThirteen();
+  
+}
+
+function chapterFourteen() {
+  document.querySelector('.textFrame').src = "14.html";
+  alertFourteen();
+  
+}
+function chapterFifteen() {
+  document.querySelector('.textFrame').src = "15.html";
+  alertFifteen();
+  
+}
+function chapterSixteen() {
+  document.querySelector('.textFrame').src = "16.html";
+  alertSixteen();
+  
+}
+function chapterSeventeen() {
+  document.querySelector('.textFrame').src = "17.html";
+  alertSeventeen();
+  
+}
+function chapterEighteen() {
+  document.querySelector('.textFrame').src = "18.html";
+  alertEighteen();
+  
+}
+
+
+
 //custom alerts according to chapters ; chnge opacity to 1 when clickin x btn
 function bgFunction() {
   document.getElementById("bg").style.opacity = "1";
@@ -200,6 +246,104 @@ function alertTen() {
    
   } 
 }
+
+function alertEleven() {
+  const x = document.getElementById("alertEleven");
+  const bg = document.getElementById("bg")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    bg.style.opacity = "10%";
+  } else {
+    x.style.display = "none";
+    
+   
+  } 
+}
+
+function alertTwelve() {
+  const x = document.getElementById("alertTwelve");
+  const bg = document.getElementById("bg")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    bg.style.opacity = "10%";
+  } else {
+    x.style.display = "none";
+    
+   
+  } 
+}
+
+function alertThirteen() {
+  const x = document.getElementById("alertThirteen");
+  const bg = document.getElementById("bg")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    bg.style.opacity = "10%";
+  } else {
+    x.style.display = "none";
+    
+   
+  } 
+}
+
+function alertFourteen() {
+  const x = document.getElementById("alertFourteen");
+  const bg = document.getElementById("bg")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    bg.style.opacity = "10%";
+  } else {
+    x.style.display = "none";
+    
+   
+  } 
+}
+
+function alertFifteen() {
+  const x = document.getElementById("alertFifteen");
+  const bg = document.getElementById("bg")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    bg.style.opacity = "10%";
+  } else {
+    x.style.display = "none";
+  } 
+}
+
+function alertSixteen() {
+  const x = document.getElementById("alertSixteen");
+  const bg = document.getElementById("bg")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    bg.style.opacity = "10%";
+  } else {
+    x.style.display = "none";
+  } 
+}
+
+function alertSeventeen() {
+  const x = document.getElementById("alertSeventeen");
+  const bg = document.getElementById("bg")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    bg.style.opacity = "10%";
+  } else {
+    x.style.display = "none";
+  } 
+}
+
+function alertEighteen() {
+  const x = document.getElementById("alertEighteen");
+  const bg = document.getElementById("bg")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    bg.style.opacity = "10%";
+  } else {
+    x.style.display = "none";
+  } 
+}
+
+
 
 /*notes */
 const addBtn = document.getElementById("add");
